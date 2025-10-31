@@ -4,8 +4,10 @@ namespace ValetaxTest.Model
 {
     public class TreeNode
     {
-        public required string TreeId { get; set; }
-        publi
+        public long Id { get; set; }
+        public long TreeId { get; set; }
+        public string Name { get; set; }
+        public long? ParentNodeId { get; set; }
 
 
     }
